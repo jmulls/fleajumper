@@ -1,0 +1,61 @@
+main, header {
+	display: block;
+}
+
+#hideText {
+	position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+}
+
+header {
+  margin: 1% auto 1% auto;
+  background-color: #000000;
+  width: 98%;
+  height: 120px;
+  padding: 0px;
+  border: 0px;
+}
+
+#FleaTitle {
+  width: 37.5%;
+  display: block;
+  float: left;
+  height: 100px;
+  padding-right: 5%;
+}
+
+#JumperTitle {
+  width: 57.5%;
+  display: block;
+  float: left;
+  height: 120px;
+}
+
+body {
+  background-color: #ffcc99;
+}
+
+canvas {
+  padding-top: 8px;
+}
+
+@media only screen and (min-width: 640px) {
+  header {
+    width: 640px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  header {
+    width: 640px;
+  }
+  
+  body {
+    width: 800px;
+    margin: auto;
+  }
+}
